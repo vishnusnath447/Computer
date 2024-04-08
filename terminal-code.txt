@@ -1,0 +1,13 @@
+* conda create -n python35 python=3.5
+* conda activate python35
+* conda install ipykernel
+* python -m ipykernel install --user --name python35 --display-name "Python 3.5"
+* git clone https://github.com/mozilla/DeepSpeech.git
+* cd DeepSpeech
+* wget https://github.com/mozilla/DeepSpeech/releases/download/v0.9.3/deepspeech-0.9.3-models.pbmm
+* wget https://github.com/mozilla/DeepSpeech/releases/download/v0.9.3/deepspeech-0.9.3-models.scorer
+* pip install -r requirements_eval_tflite.txt
+* pip install -r requirements_tests.txt
+* pip install -r requirements_transcribe.txt
+* deepspeech --model deepspeech-0.9.3-models.pbmm --scorer deepspeech-0.9.3-models.scorer --audio audiofile.wav
+* deepspeech --model deepspeech-0.9.3-models.pbmm --scorer deepspeech-0.9.3-models.scorer --audio audio/2830-3980-0043.wav
