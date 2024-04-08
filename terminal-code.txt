@@ -12,3 +12,8 @@
 * pip install moviepy
 * deepspeech --model deepspeech-0.9.3-models.pbmm --scorer deepspeech-0.9.3-models.scorer --audio audiofile.wav
 * deepspeech --model deepspeech-0.9.3-models.pbmm --scorer deepspeech-0.9.3-models.scorer --audio audio/2830-3980-0043.wav
+
+
+
+
+https://deepnote.com/workspace/projectsvizz-c7f47dea-07b3-4689-ac09-3c4e2b32b4e7/project/TestProject-e7c12a8d-76da-417f-90bb-3d40872496c9/output_audio.wav
